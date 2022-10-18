@@ -1,0 +1,8 @@
+POST http://localhost:3000/route/login1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Im5hbWUiOiJhYnV5ZSIsImFnZSI6IjIyIn0sImlhdCI6MTY2NTg5NTg0NX0.VPn8vYY39EJ-wPfUBwg97heoxksGrIHNLdwk-gx3tIo
+
+Content-Type: application/json
+{
+	"name":"abuye",
+	"age":"22"
+}
