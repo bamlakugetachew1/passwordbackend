@@ -20,4 +20,5 @@ app.use('/users',usercontrollers);
 app.use('/passwords',passwordcontrollers);
 app.listen(process.env.PORT || 3000, () => {
   console.log("app listing on port 3000");
+  res.send("home page");
 });
