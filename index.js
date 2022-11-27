@@ -18,8 +18,7 @@ app.use(helmet());
 app.use(morgan());
 app.use('/users',usercontrollers);
 app.use('/passwords',passwordcontrollers);
-app.listen(process.env.PORT || 3000, (req,res) => {
-   res.send("home page");
+app.listen(process.env.PORT || 3000, () => {
   console.log("app listing on port 3000");
   
 });
